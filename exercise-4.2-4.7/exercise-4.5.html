@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Exercise 4.5</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="eyebrow">
+      COS30045 · Week 4 · Naweed Ahmed
+    </div>
+
+    <nav>
+      <a href="exercise-4.2.html">4.2</a>
+      <a href="exercise-4.3.html">4.3</a>
+      <a href="exercise-4.4.html">4.4</a>
+      <a href="exercise-4.5.html">4.5</a>
+      <a href="exercise-4.6.html">4.6</a>
+      <a href="index.html">4.7 Final chart</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Bind and draw the data</h1>
+
+    <p>
+      Each CSV row is bound to one rectangle.
+      Width is the raw count; vertical position uses the row index.
+    </p>
+
+    <div id="status" role="status"></div>
+
+    <div class="panel">
+      <div class="container">
+        <p>Explore the television dataset.</p>
+      </div>
+
+      <div
+        class="responsive-svg-container"
+        data-stage="5"
+      ></div>
+    </div>
+  </main>
+
+  <footer>
+    Week 4 exercise · SVG and D3 fundamentals
+  </footer>
+
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
